@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Docker Image
-        uses: actions/checkout
-        run: docker build . --file Dockerfile --tag flaskactions
+      - uses: actions/checkout
+      - run: docker build . --file Dockerfile --tag flaskactions
