@@ -1,0 +1,13 @@
+
+name: Main Jobs
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build Docker Image
+      run: docker build . --tag flaskactions
