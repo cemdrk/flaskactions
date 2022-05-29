@@ -2,10 +2,8 @@
 name: Main Jobs
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
+    types: [opened, closed]
     branches:
       - main
 
