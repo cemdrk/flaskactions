@@ -3,7 +3,7 @@ name: Main Jobs
 
 on:
   pull_request:
-    types: [opened, edited, syncronize, closed]
+    types: [opened, edited, synchronize, closed]
     branches:
       - main
 
